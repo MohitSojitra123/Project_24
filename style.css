@@ -1,0 +1,283 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    height: 360px;
+    padding: 5px;
+    background-color: #cbcaca;
+    position: relative;
+}
+
+.prob{
+    width: 24%;
+    height: 100%;
+    background-color: rgb(252, 252, 251);
+    border-radius: 50%;
+    margin: auto;
+    padding: 7px 4px;
+    position: absolute;
+    transform: translate(160%,35%);
+}
+
+.pro{
+    width: 96%;
+    height: 100%;
+    background-color: red;
+    margin: auto;
+    border-radius: 50%;
+    background-image: url('./photo/img1.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.con{
+    width: 100%;
+    height: 135px;
+    /* background-color:rgb(41, 71, 71); */
+}
+
+.ab{
+    width: 100%;
+    height: 250px;
+}
+
+.detail{
+  width: 35%;
+  height: 100%;
+  margin-left:36%;
+  padding: 30px;
+}
+
+.a1{
+    width: 100%;
+    height:600px;
+    margin-top: -120px;
+    
+}
+
+.b1{
+    width: 30%;
+    height: 550px;
+    float: left;
+    transform: translateY(155px);
+    margin-left:300px;
+}
+
+.b2{
+    width: 30%;
+    height: 550px;
+    float: left;
+}
+
+.b1 img{
+    width: 95%;
+    height: 95%;
+    margin-left: 20px;
+    margin-left: -10px;
+}
+
+.b2{
+    transform: translateY(155px);
+}
+
+.b2 img{
+    width: 95%;
+    height: 95%;
+}
+
+a{
+    text-decoration: none;
+    background-color: transparent;
+    color: black;
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border: 3px solid black;
+}
+
+a:hover{
+    background-color: #F5B7B1;
+}
+
+.b3{
+    width: 100%;
+    height: 250px;
+    background-color: rgba(245, 222, 179, 0.936);
+    clear: both;
+}
+
+.c1{
+    width: 100%;
+    height: 300px;
+    /* background-color: yellowgreen;    */
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+.d1{
+    width: 30%;
+    height: 100%;
+    /* background-color: turquoise; */
+    float: left;
+}
+
+.d2{
+    width: 30%;
+    height: 100%;
+    float: left;
+    padding: 50px;
+    padding-left:10px;
+    font-size: 19px;
+    text-align: left;
+}
+.an1 a{
+    background-color: orange;
+    color: white;
+    padding: 10px;
+    padding-inline: 20px;
+    text-decoration: none;
+    border: 0px;
+}
+.hor{
+    width: 100%;
+    height: 40px;
+    padding: 15px;
+}
+.rule{
+    width: 50%;
+    height: 8px;
+    background-color: black;
+    border-radius:20px;
+}
+.e1{
+    width: 100%;
+    height: 400px;
+}
+.e2{
+    width: 50%;
+    height: 200px;
+    margin: auto;
+    padding: 28px 100px;
+    font-size: 20px;    
+}
+.e3{
+    width: 20%;
+    height: 200px;
+    margin: auto;
+}
+.f1{
+    width: 100%;
+    height: 900px;
+    background-color: red;
+}
+.upper{
+    width: 100%;
+    height: 300px;
+    background-color: yellow;
+    display: flex;
+}
+.midd{
+    width: 100%;
+    height: 300px;
+    background-color: turquoise;
+    display: flex;
+}
+.lower{
+    width: 100%;
+    height: 300px;
+    background-color: tomato;
+    display: flex;
+}
+.item1{
+    width: 33.33%;
+    height: 300px;
+    background-color:blue;
+    position: relative;
+    object-fit: cover;
+}
+.item1 .cov{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: orange;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: 0.5s;
+}
+.item1 .cov:hover{
+    opacity: 1;
+    cursor: pointer;
+    transition: 0.5s;
+    color: white;
+}
+.sec{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.sec1{
+    width: 40%;
+    height: 300px;
+    padding: 20px 50px;
+    margin:-200px ;
+    transition: 0.2s;
+}
+.sec1:hover{
+    background-color: #f1928989;
+    border-radius: 50px;
+    transition: 0.2s;
+}
+.foot{
+    width: 100%;
+    height: 300px;
+    background-image: url('./photo/img123.jpg');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.bl{
+    width: 100%;
+    height: 300px;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.543);
+    color: white;
+    font-size: 20px;
+}
+.fl{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.ic{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.ic i{
+    margin-inline: 15px;
+    font-size: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
